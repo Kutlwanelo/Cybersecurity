@@ -56,3 +56,24 @@
 > 3. Can't talk to the laptop sitting right next to you? Check **ARP**
 >
 
+### The OSI Model Cheat Sheet
+
+| Layer | Name         | Data Unit | Protocols/Hardware         |
+| ----- | ------------ | --------- | -------------------------- |
+| 7     | Application  | Data      | HTTP, DNS, DHCP, FTP       |
+| 6     | Presentation | Data      | SSL/TLS, JPEG, GIF         |
+| 5     | Session      | Data      | NetBIOS, RPC               |
+| 4     | Transport    | Segments  | TCP, UDP                   |
+| 3     | Network      | Packets   | IP, ICMP, Routers          |
+| 2     | Data Link    | Frames    | Ethernet, ARP, Switches    |
+| 1     | Physical     | Bits      | Cables, Hubs, WiFi signals |
+|       |              |           |                            |
+
+### The Troubleshooting Flow
+
+- ​**Is the cable plugged in?** (Layer 1)
+- ​**Can I see the MAC address of my gateway?** (Layer 2 - ARP)
+- ​**Can I ping the target IP?** (Layer 3 - ICMP/IP)
+- ​**Is the service port open?** (Layer 4 - TCP/UDP)
+- ​**Is the website loading?** (Layer 7 - HTTP/Application)
+
