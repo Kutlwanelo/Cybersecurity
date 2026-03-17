@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/Networking.md",
-                "mode": "source",
+                "file": "CyberNotes/PICERL Flowchart.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking"
+              "title": "PICERL Flowchart"
             }
           }
         ]
@@ -188,13 +188,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "544cf34506afa6f2",
+  "active": "3eff7c2d4c9aca0c",
   "lastOpenFiles": [
-    "CyberNotes/Quantum Computing and the threat to Cryptography.md",
+    "CyberNotes/Active Directory and Incident Response.md",
+    "CyberNotes/PICERL Flowchart.md",
+    "CyberNotes/PICERL Flowchart.md",
     "CyberNotes/Networking.md",
+    "CyberNotes/Quantum Computing and the threat to Cryptography.md",
     "2026-03-17.md",
     "Quantum Computing and the threat to Cryptography.md",
     "CyberNotes/Digital Forensics.md",
