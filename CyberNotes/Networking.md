@@ -77,3 +77,16 @@
 - ​**Is the service port open?** (Layer 4 - TCP/UDP)
 - ​**Is the website loading?** (Layer 7 - HTTP/Application)
 
+### Routing & NAT (The Global Connection)
+
+​**1. Routing Protocols (The GPS)**
+
+- ​**RIP:** Counts "Hops." Simple but slow/blind to speed.
+- ​**OSPF:** Maps the whole network. Fast and smart.
+- ​**BGP:** The "Protocol of Protocols." Connects ISPs across the globe.
+
+​**2. NAT (The Mask)**
+
+- ​**Private IPs:** (192.168.x.x, 10.x.x.x) Used inside the local network.
+- ​**Public IP:** The unique address the world sees.
+- ​**Function:** Saves IPv4 space and adds a basic layer of "invisibility" for internal devices.
