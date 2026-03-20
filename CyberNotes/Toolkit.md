@@ -17,3 +17,14 @@ _Focus: Connectivity, Routing, and DNS._
 - **What it does:** It tells you if a specific port is open without the overhead of a full browser or app.
     
 - **Security Use:** Checking if a web server is listening on Port 443 before you try to fix the HTTPS settings.
+
+
+|**Action**|**Linux (Bash)**|**Windows (CMD)**|
+|---|---|---|
+|**Read a File**|`cat`|`type`|
+|**Clear the Screen**|`clear`|`cls`|
+|**List Directory**|`ls`|`dir`|
+|**Find Where You Are**|`pwd`|`cd` (by itself)|
+|**Search for Text**|`grep`|`findstr`|
+|**Change Password**|`passwd`|`net user`|
+|**Help Manual**|`man [command]`|`[command] /?`|
