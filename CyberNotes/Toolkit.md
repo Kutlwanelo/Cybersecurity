@@ -18,6 +18,7 @@ _Focus: Connectivity, Routing, and DNS._
     
 - **Security Use:** Checking if a web server is listening on Port 443 before you try to fix the HTTPS settings.
 
+# **Administration**
 
 |**Action**|**Linux (Bash)**|**Windows (CMD)**|
 |---|---|---|
@@ -28,3 +29,12 @@ _Focus: Connectivity, Routing, and DNS._
 |**Search for Text**|`grep`|`findstr`|
 |**Change Password**|`passwd`|`net user`|
 |**Help Manual**|`man [command]`|`[command] /?`|
+
+# **Process Management**
+|**Syntax Word (Mandatory)**|**What it represents**|**Example**|
+|---|---|---|
+|**`IMAGENAME`**|The .exe file name|`imagename eq cmd.exe`|
+|**`PID`**|The Process ID number|`pid eq 1432`|
+|**`MEMUSAGE`**|RAM usage in KB|`memusage gt 5000`|
+|**`SERVICES`**|The name of the service|`services eq eventlog`|
+|**`STATUS`**|Running or Not Responding|`status eq running`|
