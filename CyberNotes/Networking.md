@@ -6,6 +6,15 @@
 |DNS|Translation|The Phonebook|Maps Names -> IPs (e.g., A, AAAA, MX records). Port 53.|
 |ARP|Resolution|The Office Shouter|Maps IP -> MAC address. Operates at Layer 2.|
 
+## Network Interface Identity
+
+- **IPv4 Address:** My unique host ID.
+    
+- **Subnet Mask:** Defines the network size/boundary. (Common: `255.255.255.0`)
+    
+- **Default Gateway:** The router's local IP; my exit to the Internet.
+    
+- **MAC Address:** The physical "burned-in" serial number of my network card. (Found via `getmac` or `ipconfig /all`).
 
 
 ## Protocol Deep Dives
