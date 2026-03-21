@@ -31,10 +31,10 @@ _Focus: Connectivity, Routing, and DNS._
 |**Help Manual**|`man [command]`|`[command] /?`|
 
 # **Process Management**
-|**Syntax Word (Mandatory)**|**What it represents**|**Example**|
-|---|---|---|
-|**`IMAGENAME`**|The .exe file name|`imagename eq cmd.exe`|
-|**`PID`**|The Process ID number|`pid eq 1432`|
-|**`MEMUSAGE`**|RAM usage in KB|`memusage gt 5000`|
-|**`SERVICES`**|The name of the service|`services eq eventlog`|
-|**`STATUS`**|Running or Not Responding|`status eq running`|
+| **Syntax Word (Mandatory)** | **What it represents**    | **Example**            |
+| --------------------------- | ------------------------- | ---------------------- |
+| **`IMAGENAME`**             | The .exe file name        | `imagename eq cmd.exe` |
+| **`PID`**                   | The Process ID number     | `pid eq 1432`          |
+| **`MEMUSAGE`**              | RAM usage in KB           | `memusage gt 5000`     |
+| **`SERVICES`**              | The name of the service   | `services eq eventlog` |
+| **`STATUS`**                | Running or Not Responding | `status eq running`    |
