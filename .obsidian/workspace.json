@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +195,9 @@
   "active": "544cf34506afa6f2",
   "lastOpenFiles": [
     "CyberNotes/Toolkit.md",
+    "CyberNotes/Digital Forensics.md",
     "CyberNotes/THM-Shells_Master Notes.md",
     "CyberNotes/Networking.md",
-    "CyberNotes/Digital Forensics.md",
     "SANCS Notes/Social Engineering and AI.md",
     "SANCS Notes",
     "CyberNotes/PICERL Flowchart.md",

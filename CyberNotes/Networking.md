@@ -99,3 +99,8 @@
 - ​**Private IPs:** (192.168.x.x, 10.x.x.x) Used inside the local network.
 - ​**Public IP:** The unique address the world sees.
 - ​**Function:** Saves IPv4 space and adds a basic layer of "invisibility" for internal devices.
+
+
+**Mapping Connections to Processes:** `Get-NetTCPConnection | Select-Object LocalPort, RemoteAddress, State, OwningProcess`
+
+- **OwningProcess:** The ID (PID) of the program that opened the connection.

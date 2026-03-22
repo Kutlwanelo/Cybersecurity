@@ -38,3 +38,24 @@ _Focus: Connectivity, Routing, and DNS._
 | **`MEMUSAGE`**              | RAM usage in KB           | `memusage gt 5000`     |
 | **`SERVICES`**              | The name of the service   | `services eq eventlog` |
 | **`STATUS`**                | Running or Not Responding | `status eq running`    |
+
+
+# **Malware Analysis** 
+Hash Comparison Table
+
+|**Algorithm**|**Length (Chars)**|**Security Level**|**Use Case**|
+|---|---|---|---|
+|**MD5**|32|Low|Quick file verification.|
+|**SHA1**|40|Medium|Legacy systems.|
+|**SHA256**|64|High|**Standard** for modern security.|
+|**SHA512**|128|Ultra|High-sensitivity data.|
+
+## Incident Response Snippets
+
+- **Check Connections:** `Get-NetTCPConnection | Where-Object State -eq "Established"`
+    
+- **Find Hidden Streams (ADS):** `Get-Item -Path "C:\Path\To\File.txt" -Stream *`
+    
+- **Verify Integrity:** `Get-FileHash -Path "file.exe" -Algorithm SHA256`
+    
+- **Filter Running Services:** `Get-Service | Where-Object Status -eq "Running"`
