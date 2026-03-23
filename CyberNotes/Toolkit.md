@@ -59,3 +59,47 @@ Hash Comparison Table
 - **Verify Integrity:** `Get-FileHash -Path "file.exe" -Algorithm SHA256`
     
 - **Filter Running Services:** `Get-Service | Where-Object Status -eq "Running"`
+
+
+## Linux Essentials (Bash)
+
+- **Navigation:** `pwd` (Where am I?), `ls -a` (Show everything, including hidden).
+    
+- **The "Bloodhound":** `find /path -name "file" 2>/dev/null` (Finds files while hiding errors).
+    
+- **The "Sieve":** `grep "text" file` (Filter for specific strings).
+    
+- **Permissions:** `chmod +x script.sh` (Unlocks the "Run" button).
+    
+- **Root Power:** `sudo su` (Become the boss).
+    
+
+## 🪟 Windows Essentials (PowerShell)
+
+- **Navigation:** `Get-ChildItem -Force` (The `ls -a` equivalent).
+    
+- **Integrity:** `Get-FileHash -Algorithm SHA256` (Check for file tampering).
+    
+- **Processes:** `Get-NetTCPConnection` (See who is talking to your machine).
+    
+- **Formatting:** `| Format-List` (See the full data without the `...` cuts).
+    
+
+## 🛠️ The "Scripting" Logic
+
+- **Shebang:** `#!/bin/bash` (Always at the very top).
+    
+- **Variables:** `name="Value"` (To set), `$name` (To use).
+    
+- **Redirection:** `>` (Overwrite/Kill), `>>` (Append/Safe).
+-
+
+# Struggles & Solutions
+
+|**The Struggle**|**The "Aha!" Moment**|
+|---|---|
+|**The "File Not Found" Loop**|Just because a script says a name doesn't mean it's in your current folder. **Always use the Absolute Path** (e.g., `/var/log/file.log`).|
+|**The "Nano" Trap**|You can't use a mouse in the terminal! **Use Arrow Keys** and `CTRL+O` / `CTRL+X` to escape.|
+|**The "Space" Bug**|In Bash, `directory = "/var/log"` fails. **Remove spaces** around the `=` sign!|
+|**The "Relative" Confusion**|`./` means "Starting right here." If you are in `/home/user`, then `./var` doesn't exist because `var` is at the **Root** (`/`).|
+|**VM Lag vs. Typing**|When the VM is slow, use **Tab Completion**. It prevents typos and confirms the file actually exists before you hit Enter.|

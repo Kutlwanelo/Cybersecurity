@@ -88,3 +88,7 @@
 - **Variables:** Use `$` to call them (e.g., `$USER`).
     
 - **Logic Ends:** `if` ends with `fi`, `do` ends with `done`.
+
+## "Victory Note"
+
+> **Date:** March 2026 **Module:** THM Command Line & Shells **Status:** COMPLETED ✅ **Reflections:** Successfully debugged a broken Bash script by identifying variable scope and pathing errors. Used `sudo su` to escalate privileges for log analysis. **Next Goal:** Networking or Pentesting fundamentals.
