@@ -38,7 +38,29 @@ Standard SMTP is "Clear-Text." If I use Wireshark on port 25, I can read the ent
 > - **My "Invisible" Header:** I noticed that if I don't type `Subject: My Subject` inside the `DATA` section, the email arrives with no subject line. The protocol doesn't "force" me to have one, but a real inbox would flag it as spam.
 >     
 > - **The Port 25 Reality:** I am using Port 25 because this is a lab. In my future career, I’ll likely see **Port 587** for modern, encrypted mail submission.
->     
+
+## My POP3 Security Audit
+
+In my **Networking Core** study, I've identified three major things about POP3:
+
+1. **The Password Trap:** In the terminal, the user types `PASS [password]`. If I am sitting on the same Wi-Fi as this user with Wireshark open, **I now own their email account.** 2. **The "Take It and Go" Rule:** By default, POP3 is designed to download the email to my computer and **delete it from the server**.
+    
+    - _My Lesson:_ This is why I can't see the same emails on my phone and my laptop if I use POP3—the first device to "check the mail" wins!
+        
+2. **The Success Codes:** Notice that POP3 doesn't use numbers like `250` or `354`. It uses simple text: `+OK` for success and `-ERR` for failure.
+
+## My POP3 Command Glossary
+
+I'm adding these to my **Obsidian** vault so I can manually "check my mail" in future labs:
+
+|**Command**|**My Action**|
+|---|---|
+|**USER / PASS**|I identify myself and provide my "Key."|
+|**STAT**|I ask: "How many letters are in my box?"|
+|**LIST**|I ask: "Show me the sizes of each letter."|
+|**RETR [number]**|I say: "Read letter number 3 to me."|
+|**DELE [number]**|I say: "I've read it, throw it in the bin."|
+|**QUIT**|I say: "Goodbye." (The server only deletes files _after_ I type this!)|
 
 ---
 
