@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/THM-Shells_Master Notes.md",
+                "file": "Networking/Networking Secure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THM-Shells_Master Notes"
+              "title": "Networking Secure"
             }
           }
         ]
@@ -194,13 +194,15 @@
   },
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
-    "CyberNotes/Toolkit.md",
     "Networking/Networking Core.md",
+    "Networking/Networking Secure.md",
+    "Networking/Untitled",
     "Networking/Networking Core 2.md",
     "Networking/Networking Basics.md",
+    "CyberNotes/Toolkit.md",
+    "CyberNotes/THM-Shells_Master Notes.md",
     "CyberNotes/Active Directory and Incident Response.md",
     "Networking",
-    "CyberNotes/THM-Shells_Master Notes.md",
     "CyberNotes/Digital Forensics.md",
     "SANCS Notes/Social Engineering and AI.md",
     "SANCS Notes",
