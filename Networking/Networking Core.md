@@ -58,3 +58,40 @@
 - **The Identity Switch:** If I am `root` (#) and need to be a normal user ($), I run `su - ubuntu`. Since I am already root, I don't need a password to "drop down."
     
 - **Absolute Paths:** I remember that if a script tells me a filename exists, I usually need to add the full path (like `/var/log/`) to open it with `cat`.
+
+## My HTTP Mastery Guide
+
+- **Layer:** 7 (Application)
+    
+- **Default Ports:** 80 (HTTP - Unencrypted) / 443 (HTTPS - Secure)
+    
+- **Alternative Ports:** 8080, 8443 (Often used for dev/testing servers).
+    
+
+#### 🛡️ My Security Checklist:
+
+1. **Information Leakage:** Does the `Server` header reveal a version number I can exploit?
+    
+2. **Insecure Methods:** Does the server allow `PUT` or `DELETE` to anonymous users?
+    
+3. **HTTPS Transition:** Does the site force me from port 80 to port 443?
+    
+
+#### 💻 My Practical Tools:
+
+- `telnet [IP] [Port]` - To manually "type" HTTP.
+    
+- `curl -v [URL]` - The modern way to see headers and data at once.
+
+## My Manual HTTP Request (via Telnet)
+
+- **Step 1:** `telnet 10.10.10.10 80`
+    
+- **Step 2:** Type `GET /index.html HTTP/1.1` (This tells the server _which_ file I want).
+    
+- **Step 3:** Type `Host: 10.10.10.10` (Modern servers require this to know which website they are serving).
+    
+- **Step 4:** **Press Enter Twice.**
+    
+
+**Why I do this:** It allows me to see the **Raw Headers** (Server version, Cookies, Date) that a browser usually hides from me.
