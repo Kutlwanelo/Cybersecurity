@@ -62,6 +62,19 @@ I'm adding these to my **Obsidian** vault so I can manually "check my mail" in f
 |**DELE [number]**|I say: "I've read it, throw it in the bin."|
 |**QUIT**|I say: "Goodbye." (The server only deletes files _after_ I type this!)|
 
+## My "Master Protocol" Cheat Sheet
+
+I'm adding this table to my **Networking Core** folder in Obsidian. This is my "Quick Reference" for when I start using scanning tools like `nmap` in the next labs.
+
+|**Protocol**|**Purpose**|**Port**|**My Security Note**|
+|---|---|---|---|
+|**DNS**|The "Phonebook"|53|Uses UDP for speed, TCP for big transfers.|
+|**HTTP**|The "Web"|80|**Unencrypted.** Use only for testing.|
+|**HTTPS**|The "Secure Web"|443|The modern standard (Encrypted).|
+|**FTP**|The "Files"|21|Clear-text passwords! Use **SFTP** instead.|
+|**SMTP**|Sending Mail|25|The "Post Office" entry point.|
+|**POP3**|Getting Mail|110|"Download and Delete" logic.|
+|**IMAP**|Syncing Mail|143|"Stay in Sync" logic|
 ---
 
 ## 🇿🇦 Fun Fact for my Interview
@@ -70,3 +83,14 @@ If I ever have to explain **Email Spoofing**, I can now say:
 
 > _"I’ve manually sent emails via Telnet on Port 25. I saw firsthand that the protocol trusts whatever I type in the `MAIL FROM` field. This is why we need security layers like **SPF, DKIM, and DMARC** to verify that the sender is actually who they claim to be."
 
+## My "Final Reflection" Note
+
+
+> ## 🧠 The "Abstract" vs. The "Raw"
+> 
+> - **The Lesson:** Graphical User Interfaces (GUIs) are for users; Protocols are for engineers.
+>     
+> - **The Discovery:** Whether it's `GET`, `RETR`, or `LOGIN`, every protocol is just a specific language designed to do one job efficiently.
+>     
+> - **My Growth:** I no longer see "The Internet" as a magic cloud. I see it as a massive conversation happening on specific ports.
+>
