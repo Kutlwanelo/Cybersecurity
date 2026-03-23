@@ -74,3 +74,17 @@
 - **Run a local script on a remote PC:** `Invoke-Command -ComputerName "TargetPC" -FilePath "C:\MyScripts\SecurityAudit.ps1"`
     
 - **Pro-Tip:** You can provide a list of names `("PC1", "PC2", "PC3")` to run the command on all of them at once!
+
+# Bash Scripting Essentials
+
+- **Extension:** `.sh`
+    
+- **Header:** `#!/bin/bash`
+    
+- **Make Executable:** `chmod +x filename.sh`
+    
+- **Run:** `./filename.sh`
+    
+- **Variables:** Use `$` to call them (e.g., `$USER`).
+    
+- **Logic Ends:** `if` ends with `fi`, `do` ends with `done`.
