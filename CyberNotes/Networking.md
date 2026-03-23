@@ -1,10 +1,10 @@
 ### The Coffee Shop Connection: Core Protocols
 
-|Protocol|Role|Analogy|Key Detail|
-|---|---|---|---|
-|DHCP|Configuration|The Concierge|Uses DORA (Discover, Offer, Request, ACK). Ports 67/68.|
-|DNS|Translation|The Phonebook|Maps Names -> IPs (e.g., A, AAAA, MX records). Port 53.|
-|ARP|Resolution|The Office Shouter|Maps IP -> MAC address. Operates at Layer 2.|
+| Protocol | Role          | Analogy            | Key Detail                                                                                                       |
+| -------- | ------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| DHCP     | Configuration | The Concierge      | Uses DORA (Discover, Offer, Request, ACK). Ports 67/68.                                                          |
+| DNS      | Translation   | The Phonebook      | Maps Names -> IPs (e.g., A, AAAA, MX records). Port 53. (Usually **UDP** for speed, **TCP** for large transfers) |
+| ARP      | Resolution    | The Office Shouter | Maps IP -> MAC address. Operates at Layer 2.                                                                     |
 
 ## Network Interface Identity
 
