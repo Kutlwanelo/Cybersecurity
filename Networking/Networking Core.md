@@ -138,10 +138,18 @@ I'll make sure to note the "ASCII vs. Binary" trap I saw in the terminal warning
 > 
 > In a real job, I should use **SFTP** (SSH File Transfer Protocol) because it encrypts the entire conversation.
 
+## Retrieval vs. Rendering
+
+- **The Lesson:** "Getting" a file via FTP or `curl` is just a **Download**. The "Internet" doesn't open it for me; it just delivers the bytes to my hard drive.
+    
+- **My Strategy:** Always check my local directory with `ls` after a transfer. I am the one who decides how to "render" or read the data using tools like `cat`, `nano`, or `python`.
+    
+- **Why this matters for InfoSec:** Hackers don't always want to "see" the file; they just want to "exfiltrate" it (steal it) so they can read it later on their own machine.
 ---
 
 ## Interview "Pro" Tip
 
 If an interviewer asks: _"What is the risk of using standard FTP?"_ **My Answer:** _"The biggest risk is that it's a clear-text protocol. Using a tool like Wireshark, an attacker can capture the `USER` and `PASS` commands. I would always recommend migrating to SFTP or FTPS to ensure the credentials and data are encrypted in transit."
+
 
 
