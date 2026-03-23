@@ -94,4 +94,54 @@
 - **Step 4:** **Press Enter Twice.**
     
 
-**Why I do this:** It allows me to see the **Raw Headers** (Server version, Cookies, Date) that a browser usually hides from me.
+# Obsidian "Web Tools" Note
+
+**Why I do this:** It allows me to see the **Raw Headers** (Server version, Cookies, Date) that a browser usually hides from me.## My `curl` Cheat Sheet
+
+- **The Goal:** To interact with web servers without a browser.
+    
+- **Basic Command:** `curl [URL]`
+    
+- **The "Detective" Command:** `curl -v [URL]` (Shows me the headers and the handshake).
+    
+- **The "Header-Only" Command:** `curl -I [URL]` (Great for quick version checking).
+
+# (File Transfer Protocol THM Room)
+
+I'll make sure to note the "ASCII vs. Binary" trap I saw in the terminal warning.
+
+> ##  FTP (File Transfer Protocol)
+> 
+> - **My Layer:** 7 (Application)
+>     
+> - **My Port:** 21 (Control)
+>     
+> - **My Security Warning:** FTP is **unencrypted**. Anyone sniffing the network with Wireshark can see my password and the files I download.
+>     
+> 
+> ####  My FTP Workflow:
+> 
+> 1. `ftp [IP]` - Start the connection.
+>     
+> 2. **Login:** I try `anonymous` first to see if the server is misconfigured.
+>     
+> 3. **Mode Check:** > * I use `type ascii` for text files (`.txt`, `.html`).
+>     
+>     - I use `type binary` for images, zip files, or executables.
+>         
+>     - _Note:_ If I get the "Linefeeds" warning I saw in THM, I probably used the wrong mode!
+>         
+> 4. **Download:** `get [filename]`
+>     
+> 
+> ####  My Secure Alternative:
+> 
+> In a real job, I should use **SFTP** (SSH File Transfer Protocol) because it encrypts the entire conversation.
+
+---
+
+## Interview "Pro" Tip
+
+If an interviewer asks: _"What is the risk of using standard FTP?"_ **My Answer:** _"The biggest risk is that it's a clear-text protocol. Using a tool like Wireshark, an attacker can capture the `USER` and `PASS` commands. I would always recommend migrating to SFTP or FTPS to ensure the credentials and data are encrypted in transit."
+
+
