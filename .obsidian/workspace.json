@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Networking Core 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Networking Core 2"
             }
           }
         ]
@@ -195,7 +195,7 @@
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
     "Networking/Networking Core.md",
-    "Networking/Untitled.md",
+    "Networking/Networking Core 2.md",
     "Networking/Networking Basics.md",
     "CyberNotes/Active Directory and Incident Response.md",
     "Networking",
