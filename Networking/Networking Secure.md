@@ -18,8 +18,33 @@
 
 # **The Great Encryption Upgrade**:
 
-|**Naked Protocol**|**Secure Version**|**What the "S" adds**|
-|---|---|---|
-|**HTTP**|**HTTPS**|Web traffic is private.|
-|**DNS**|**DoT** (DNS over TLS)|No one can see which websites you visit.|
-|**MQTT**|**MQTTS**|IoT devices (like smart home sensors) are secured.|
+| **Naked Protocol** | **Secure Version**     | **What the "S" adds**                              |
+| ------------------ | ---------------------- | -------------------------------------------------- |
+| **HTTP**           | **HTTPS**              | Web traffic is private.                            |
+| **DNS**            | **DoT** (DNS over TLS) | No one can see which websites you visit.           |
+| **MQTT**           | **MQTTS**              | IoT devices (like smart home sensors) are secured. |
+
+The secure versions, i.e., over TLS, use the following TCP port numbers by default:
+
+|Protocol|Default Port Number|
+|---|---|
+|HTTPS|443|
+|SMTPS|465 and 587|
+|POP3S|995|
+|IMAPS|993|
+
+TLS can be added to many other protocols; the reasoning and advantages would be similar.
+## HTTPS: The Security Researcher's View
+
+- **The Goal:** To ensure the "Tunnel" is unbreakable.
+    
+- **Key Vulnerability: SSL Stripping.** An attacker intercepts the initial request and forces the victim to stay on HTTP (Port 80) while the attacker talks to the server on HTTPS (Port 443).
+    
+- **The Fix:** **HSTS (HTTP Strict Transport Security).** A header that tells the browser: "Only EVER talk to me over HTTPS. If the cert is bad, block the user!"
+    
+
+####  What I look for in Wireshark:
+
+- **The SNI (Server Name Indication):** Even in encrypted traffic, the domain name is leaked in the `Client Hello` packet. I use this to map out a target's infrastructure.
+    
+- **TLS Version:** Anything below **TLS 1.2** is a security risk.
