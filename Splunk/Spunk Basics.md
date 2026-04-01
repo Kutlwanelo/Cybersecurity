@@ -48,3 +48,18 @@ Note:
     
 - **Protocol Hardening:** Enforcing TLS 1.3 and disabling legacy cleartext protocols (Telnet/FTP).
 
+```mermaid
+graph LR
+    subgraph Layer 7 - Application
+    A[Web Server] -->|Log| B[Splunk: web_traffic]
+    B -->|Filter| C{Suspicious UA?}
+    C -->|Yes| D[Identify SQLi/RCE]
+    end
+
+    subgraph Layer 4 - Network
+    D -->|Pivot| E[Splunk: firewall_logs]
+    E -->|Check Port 25/143/4444| F{Outbound Connection?}
+    F -->|Yes| G[**C2 EXFILTRATION**]
+    end
+    
+    style G fill:#f96,stroke:#333,stroke-width:4px `
