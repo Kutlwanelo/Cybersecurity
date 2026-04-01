@@ -40,3 +40,11 @@ Based on the **King Malhare** investigation:
 3. **Action on Objectives:** Uploaded `shell.php` and executed `bunnylock.bin` (RCE).
     
 4. **Exfiltration:** Large outbound data transfer to C2 (Command & Control) server
+
+Note:
+- **Log Ingestion:** Ensuring `user_agent` and `client_ip` are correctly parsed in Splunk.
+    
+- **Egress Filtering:** Blocking outbound traffic from web servers to unauthorized external IPs/Ports (Stopping the C2 contact you found).
+    
+- **Protocol Hardening:** Enforcing TLS 1.3 and disabling legacy cleartext protocols (Telnet/FTP).
+
