@@ -18,5 +18,25 @@ Attackers often use scripts. To find them, filter out "Known Good" browsers:
 index=main sourcetype=web_traffic 
 NOT (user_agent="*Mozilla*" OR user_agent="*Chrome*" OR user_agent="*Safari*")| stats count by client_ip, user_agent | sort -count
 
+### 2.Detecting Path Traversal
 
+Looking for attempts to escape the web directory (e.g., `../../etc/passwd`):
+index=main sourcetype=web_traffic path="*../*" | table _time, client_ip, path, status
 
+### 3. SQL Injection (SQLi) "Smoking Guns"
+
+Look for time-delay functions. A **504 Gateway Timeout** following a `SLEEP` command usually indicates a successful exploit.
+index=main sourcetype=web_traffic (path="*sleep*" OR path="*benchmark*") | table _time, client_ip, path, status
+
+### TryHackMe Splunk Basics Did You SIEM(Advent of Cyber 2025 room)
+## The Attack Lifecycle (Cyber Kill Chain)
+
+Based on the **King Malhare** investigation:
+
+1. **Recon:** Scanned for `.env`, `phpinfo`, and `.git` files (Status: 404/403).
+    
+2. **Exploitation:** Used `sqlmap` to find vulnerabilities (Status: 504/200).
+    
+3. **Action on Objectives:** Uploaded `shell.php` and executed `bunnylock.bin` (RCE).
+    
+4. **Exfiltration:** Large outbound data transfer to C2 (Command & Control) server
