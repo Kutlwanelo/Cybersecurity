@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/Active Directory and Incident Response.md",
+                "file": "Splunk/Spunk Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Directory and Incident Response"
+              "title": "Spunk Basics"
             }
           }
         ]
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +195,9 @@
   },
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
+    "CyberNotes/Active Directory and Incident Response.md",
+    "Splunk/Spunk Basics.md",
+    "Splunk",
     "Networking/Networking Secure.md",
     "Networking/Networking Core.md",
     "Networking/Untitled",
@@ -201,7 +205,6 @@
     "Networking/Networking Basics.md",
     "CyberNotes/Toolkit.md",
     "CyberNotes/THM-Shells_Master Notes.md",
-    "CyberNotes/Active Directory and Incident Response.md",
     "Networking",
     "CyberNotes/Digital Forensics.md",
     "SANCS Notes/Social Engineering and AI.md",
