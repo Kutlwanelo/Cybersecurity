@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Analysis/Static Analysis vs Dynamic Analysis.md",
+                "file": "Networking/Networking Secure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Static Analysis vs Dynamic Analysis"
+              "title": "Networking Secure"
             }
           }
         ]
@@ -195,17 +195,17 @@
   },
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
-    "Splunk/Spunk Basics.md",
+    "Networking/Networking Core 2.md",
+    "Networking/Networking Core.md",
+    "Networking/Networking Basics.md",
     "Malware Analysis/Static Analysis vs Dynamic Analysis.md",
+    "Splunk/Spunk Basics.md",
     "Malware Analysis",
     "CyberNotes/PICERL Flowchart.md",
     "CyberNotes/Active Directory and Incident Response.md",
     "Splunk",
     "Networking/Networking Secure.md",
-    "Networking/Networking Core.md",
     "Networking/Untitled",
-    "Networking/Networking Core 2.md",
-    "Networking/Networking Basics.md",
     "CyberNotes/Toolkit.md",
     "CyberNotes/THM-Shells_Master Notes.md",
     "Networking",
