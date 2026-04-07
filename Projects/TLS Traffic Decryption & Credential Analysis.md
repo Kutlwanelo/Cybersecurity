@@ -34,13 +34,13 @@ In this investigation, I analyzed encrypted network traffic captured in a `.pcap
 
 ---
 
-### 🎯 Conclusion
+### Conclusion
 
 This investigation demonstrated how encrypted traffic can be analyzed when key material is available. It highlights the importance of protecting cryptographic keys and reinforces the role of analysts in extracting meaningful insights from network data.
 
 ---
 
-### 📎 Skills Demonstrated
+### Skills Demonstrated
 
 * Network traffic analysis
 * TLS decryption
