@@ -32,3 +32,45 @@ It’s not just “logging everything”
  EDR is like:
 > “I don’t just see one action—I see a chain of suspicious actions”
 
+### Process of investigating EDR Telemetry
+### Step 1: Confirm the Activity
+- PowerShell downloaded a file
+### Step 2: Check the Source
+- What IP/domain?
+- Is it known malicious?
+- Is it internal or external?
+### Step 3: Add Context (This Is What You’re Missing Slightly)
+Ask:
+- Has this IP been seen before in the environment?
+- Did other machines connect to it?
+- Is it flagged in threat intel?
+### Step 4: THEN Map to MITRE
+- “This aligns with **Command and Control** or **Ingress Tool Transfer**”
+ MITRE is for **classification**, not first investigation step
+
+### Examples of IOCs
+### Network IOCs
+- Malicious IP address
+- Suspicious domain
+- Unusual outbound traffic
+Example:
+> PowerShell connects to `185.x.x.x`
+
+### File IOCs
+- File hash (MD5, SHA256)
+- Suspicious file names
+- Unexpected file locations
+ Example:
+> `invoice.exe` in Downloads
+### Host / Endpoint IOCs
+- Strange processes
+- Unusual parent-child relationships
+- Registry changes
+Example:
+> `winword.exe → powershell.exe`
+### User Behavior IOCs
+- Multiple failed logins
+- Login from unusual location
+- Access at odd hours
+ Example:
+> User logs in from SA, then Russia 5 mins later
