@@ -31,3 +31,4 @@ It’s not just “logging everything”
  It’s building a **story of behavior over time**
  EDR is like:
 > “I don’t just see one action—I see a chain of suspicious actions”
+
