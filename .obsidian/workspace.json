@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/TLS Traffic Decryption & Credential Analysis.md",
+                "file": "Splunk/Spunk Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TLS Traffic Decryption & Credential Analysis"
+              "title": "Spunk Basics"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
-    "Networking/Networking Secure.md",
     "Projects/TLS Traffic Decryption & Credential Analysis.md",
+    "Networking/Networking Secure.md",
     "Projects",
     "Networking/Networking Core.md",
     "Networking/Networking Core 2.md",
