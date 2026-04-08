@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Untitled.md",
+                "file": "Projects/Web Attack Detection(Splunk).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Web Attack Detection(Splunk)"
             }
           }
         ]
@@ -196,7 +196,7 @@
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
     "Projects/TLS Traffic Decryption & Credential Analysis.md",
-    "Projects/Untitled.md",
+    "Projects/Web Attack Detection(Splunk).md",
     "Splunk/Spunk Basics.md",
     "Networking/Networking Secure.md",
     "Projects",
