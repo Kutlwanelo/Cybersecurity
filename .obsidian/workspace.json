@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Web Attack Detection(Splunk).md",
+                "file": "Elastic(ELK)/Elastic Basics(SOC-Focused).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Attack Detection(Splunk)"
+              "title": "Elastic Basics(SOC-Focused)"
             }
           }
         ]
@@ -195,8 +195,11 @@
   },
   "active": "44319094e33cdfc3",
   "lastOpenFiles": [
-    "Projects/TLS Traffic Decryption & Credential Analysis.md",
     "Projects/Web Attack Detection(Splunk).md",
+    "Elastic(ELK)/Elastic Basics(SOC-Focused).md",
+    "Elastic(ELK)/Elastic Basics",
+    "Elastic(ELK)",
+    "Projects/TLS Traffic Decryption & Credential Analysis.md",
     "Splunk/Spunk Basics.md",
     "Networking/Networking Secure.md",
     "Projects",
