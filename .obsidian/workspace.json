@@ -11,10 +11,14 @@
             "id": "1c31c9040317dcce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Threat Actor Analysis Using MITRE ATT&CK"
             }
           }
         ]
@@ -191,6 +195,7 @@
   },
   "active": "1c31c9040317dcce",
   "lastOpenFiles": [
+    "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
     "Untitled.canvas",
     "CyberNotes/SOAR.md",
     "Elastic(ELK)/Elastic Basics(SOC-Focused).md",
