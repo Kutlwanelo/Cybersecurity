@@ -11,10 +11,14 @@
             "id": "c7695b696f865ede",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CyberNotes/Phishing/Phishing Analysis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Phishing Analysis"
             }
           }
         ]
@@ -173,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +195,9 @@
   },
   "active": "c7695b696f865ede",
   "lastOpenFiles": [
+    "CyberNotes/Malware Analysis/Static Analysis vs Dynamic Analysis.md",
+    "CyberNotes/Phishing/Phishing Analysis.md",
+    "CyberNotes/Phishing",
     "Untitled.canvas",
     "Scenarios/Threat Hunting Scenario Using MITRE ATTT&CK(APT28).md",
     "Untitled.base",
@@ -197,32 +205,30 @@
     "Scenarios",
     "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
     "CyberNotes/SOAR.md",
-    "Elastic(ELK)/Elastic Basics(SOC-Focused).md",
+    "CyberNotes/Elastic(ELK)/Elastic Basics(SOC-Focused).md",
     "Projects/Web Attack Detection(Splunk).md",
     "Elastic(ELK)/Elastic Basics",
-    "Elastic(ELK)",
+    "CyberNotes/Elastic(ELK)",
     "Projects/TLS Traffic Decryption & Credential Analysis.md",
-    "Splunk/Spunk Basics.md",
-    "Networking/Networking Secure.md",
+    "CyberNotes/Splunk/Spunk Basics.md",
+    "CyberNotes/Networking/Networking Secure.md",
     "Projects",
-    "Networking/Networking Core.md",
-    "Networking/Networking Core 2.md",
-    "Networking/Networking Basics.md",
+    "CyberNotes/Networking/Networking Core.md",
+    "CyberNotes/Networking/Networking Core 2.md",
+    "CyberNotes/Networking/Networking Basics.md",
     "CyberNotes/Endpoint Detection Response.md",
     "Untitled.md",
-    "Malware Analysis/Static Analysis vs Dynamic Analysis.md",
-    "Malware Analysis",
+    "CyberNotes/Malware Analysis",
     "CyberNotes/PICERL Flowchart.md",
     "CyberNotes/Active Directory and Incident Response.md",
-    "Splunk",
+    "CyberNotes/Splunk",
     "Networking/Untitled",
     "CyberNotes/Toolkit.md",
     "CyberNotes/THM-Shells_Master Notes.md",
-    "Networking",
+    "CyberNotes/Networking",
     "CyberNotes/Digital Forensics.md",
-    "SANCS Notes/Social Engineering and AI.md",
-    "SANCS Notes",
-    "SANCS Notes/Quantum Computing and the threat to Cryptography.md",
+    "CyberNotes/SANCS Notes/Social Engineering and AI.md",
+    "CyberNotes/SANCS Notes/Quantum Computing and the threat to Cryptography.md",
     "2026-03-17.md",
     "Quantum Computing and the threat to Cryptography.md",
     "Welcome.md"
