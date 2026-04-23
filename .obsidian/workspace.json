@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/Phishing/Phishing Analysis.md",
+                "file": "CyberNotes/Phishing/Phishing Email Analysis & IOC Extraction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing Analysis"
+              "title": "Phishing Email Analysis & IOC Extraction"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "c7695b696f865ede",
   "lastOpenFiles": [
-    "CyberNotes/Malware Analysis/Static Analysis vs Dynamic Analysis.md",
     "CyberNotes/Phishing/Phishing Analysis.md",
+    "CyberNotes/Phishing/Phishing Email Analysis & IOC Extraction.md",
+    "CyberNotes/Malware Analysis/Static Analysis vs Dynamic Analysis.md",
     "CyberNotes/Phishing",
     "Untitled.canvas",
     "Scenarios/Threat Hunting Scenario Using MITRE ATTT&CK(APT28).md",
@@ -230,7 +231,6 @@
     "CyberNotes/SANCS Notes/Social Engineering and AI.md",
     "CyberNotes/SANCS Notes/Quantum Computing and the threat to Cryptography.md",
     "2026-03-17.md",
-    "Quantum Computing and the threat to Cryptography.md",
-    "Welcome.md"
+    "Quantum Computing and the threat to Cryptography.md"
   ]
 }
