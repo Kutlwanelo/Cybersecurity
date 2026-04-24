@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/Phishing/Phishing Email Analysis & IOC Extraction.md",
+                "file": "CyberNotes/Networking/Networking Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing Email Analysis & IOC Extraction"
+              "title": "Networking Basics"
             }
           }
         ]
@@ -195,8 +195,11 @@
   },
   "active": "c7695b696f865ede",
   "lastOpenFiles": [
-    "CyberNotes/Phishing/Phishing Analysis.md",
+    "CyberNotes/Networking/Networking Secure.md",
+    "CyberNotes/Networking/Networking Core 2.md",
+    "CyberNotes/Networking/Networking Core.md",
     "CyberNotes/Phishing/Phishing Email Analysis & IOC Extraction.md",
+    "CyberNotes/Phishing/Phishing Analysis.md",
     "CyberNotes/Malware Analysis/Static Analysis vs Dynamic Analysis.md",
     "CyberNotes/Phishing",
     "Untitled.canvas",
@@ -212,10 +215,7 @@
     "CyberNotes/Elastic(ELK)",
     "Projects/TLS Traffic Decryption & Credential Analysis.md",
     "CyberNotes/Splunk/Spunk Basics.md",
-    "CyberNotes/Networking/Networking Secure.md",
     "Projects",
-    "CyberNotes/Networking/Networking Core.md",
-    "CyberNotes/Networking/Networking Core 2.md",
     "CyberNotes/Networking/Networking Basics.md",
     "CyberNotes/Endpoint Detection Response.md",
     "Untitled.md",
