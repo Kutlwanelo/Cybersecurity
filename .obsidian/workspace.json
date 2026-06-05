@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberNotes/Networking/Networking Basics.md",
+                "file": "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking Basics"
+              "title": "Threat Actor Analysis Using MITRE ATT&CK"
             }
           }
         ]
@@ -195,6 +195,8 @@
   },
   "active": "c7695b696f865ede",
   "lastOpenFiles": [
+    "Projects/Purple Team Detection Engineering(Pyramid of Pain).md",
+    "CyberNotes/Networking/Networking Basics.md",
     "CyberNotes/Networking/Networking Secure.md",
     "CyberNotes/Networking/Networking Core 2.md",
     "CyberNotes/Networking/Networking Core.md",
@@ -205,7 +207,6 @@
     "Untitled.canvas",
     "Scenarios/Threat Hunting Scenario Using MITRE ATTT&CK(APT28).md",
     "Untitled.base",
-    "Projects/Purple Team Detection Engineering(Pyramid of Pain).md",
     "Scenarios",
     "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
     "CyberNotes/SOAR.md",
@@ -216,7 +217,6 @@
     "Projects/TLS Traffic Decryption & Credential Analysis.md",
     "CyberNotes/Splunk/Spunk Basics.md",
     "Projects",
-    "CyberNotes/Networking/Networking Basics.md",
     "CyberNotes/Endpoint Detection Response.md",
     "Untitled.md",
     "CyberNotes/Malware Analysis",
