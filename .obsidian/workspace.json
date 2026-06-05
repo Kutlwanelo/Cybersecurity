@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
+                "file": "Projects/Purple Team Detection Engineering(Pyramid of Pain).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Threat Actor Analysis Using MITRE ATT&CK"
+              "title": "Purple Team Detection Engineering(Pyramid of Pain)"
             }
           }
         ]
@@ -195,6 +195,7 @@
   },
   "active": "c7695b696f865ede",
   "lastOpenFiles": [
+    "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
     "Projects/Purple Team Detection Engineering(Pyramid of Pain).md",
     "CyberNotes/Networking/Networking Basics.md",
     "CyberNotes/Networking/Networking Secure.md",
@@ -208,7 +209,6 @@
     "Scenarios/Threat Hunting Scenario Using MITRE ATTT&CK(APT28).md",
     "Untitled.base",
     "Scenarios",
-    "Projects/Threat Actor Analysis Using MITRE ATT&CK.md",
     "CyberNotes/SOAR.md",
     "CyberNotes/Elastic(ELK)/Elastic Basics(SOC-Focused).md",
     "Projects/Web Attack Detection(Splunk).md",
